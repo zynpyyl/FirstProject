@@ -1,0 +1,19 @@
+<template>
+    <lightning-layout>
+        <div>
+            <template for:each={contacts} for:item="each">
+                <li key={each.id}>
+                    <p><b>id:</b> {each.id}</p>
+                    <p><b>name:</b> {each.name}</p>
+                    <p><b>title:</b> {each.title}</p>
+                </li>
+            </template>
+
+        </div>
+    </lightning-layout>
+
+
+
+
+    
+</template>
