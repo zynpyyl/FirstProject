@@ -10,7 +10,7 @@ Http h = new Http();
 // using the type HTTPRequest 
 HttpRequest req = new HttpRequest(); 
 // This is how we set the URL using setEndpoint Method
-req.setEndpoint('https://pi2hscwpkz.us-east-1.awsapprunner.com/api/spartans/1'); 
+req.setEndpoint('https://pi2hscwpkz.us-east-1.awsapprunner.com/api/spartans/165'); 
 // set the HTTP very|method GET 
 req.setMethod('GET'); 
 
