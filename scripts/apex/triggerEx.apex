@@ -1,2 +1,2 @@
 
-SpartanCallout.getOneSpartan(165);
+
