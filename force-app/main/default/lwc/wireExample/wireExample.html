@@ -1,0 +1,35 @@
+<!-- sldsValidatorIgnore -->
+<template>
+  <lightning-card title="Accounts" icon-name="standard:account">
+    <div class="slds-var-m-around_medium">
+      <lightning-slider
+        label="Max Annual Revenue"
+        value={accountRevenue}
+        step="10000"
+        max="5600000000"
+        onchange={handleRevenueChange}
+      ></lightning-slider>
+
+      <template lwc:if={filteredAccount}>
+
+        <lightning-datatable
+        key-field="Id"
+        data={filteredAccount}
+        show-row-number-column
+        hide-checkbox-column
+        columns={columnsList}>
+      </lightning-datatable>
+
+
+    
+      </template>
+
+
+
+    </div>
+  </lightning-card>
+
+
+</template>
+
+
